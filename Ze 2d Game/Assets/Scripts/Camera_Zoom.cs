@@ -23,7 +23,7 @@ public class Camera_Zoom : MonoBehaviour
     {
         ScrollData = Input.GetAxis("Mouse ScrollWheel");
         TargetZoom = TargetZoom - ScrollData;
-        TargetZoom = Mathf.Clamp(TargetZoom, 1, 3);
+        TargetZoom = Mathf.Clamp(TargetZoom, 1, 5);
         Cam.orthographicSize = Mathf.Lerp(Cam.orthographicSize, TargetZoom, Time.deltaTime * ZoomSpeed);
     }
 }
