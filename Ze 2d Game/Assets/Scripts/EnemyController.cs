@@ -5,8 +5,6 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     
-    public float maxX;
-    public float minX;
     public float maxSpeed = 2;
     public int damage = 1;
     public SpriteRenderer sr;
@@ -29,7 +27,7 @@ public class EnemyController : MonoBehaviour
             FindObjectOfType<PlayerStats>().TakeDamage(damage);
             Flip();
         }
-        else if (other.tag == "Wall" || transform.position.x > minX || transform.position.x < maxX)
+        else if (other.tag == "Wall")
         {
             Flip();
         }
