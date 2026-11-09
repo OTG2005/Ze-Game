@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0956de7f15078754188084b6601fd2a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSource: {instanceID: 0}
+  - sfxSource: {instanceID: 0}
+  - overworldMusic: {fileID: 8300000, guid: c68ceafd86c975447be7cfa89880b941, type: 3}
+  - caveMusic: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode SpaceBar; 
